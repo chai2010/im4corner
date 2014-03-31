@@ -4,7 +4,7 @@ Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, �
 
 ## 安装
 
-首先下载 [im4corner.lua](https://bitbucket.org/chai2010/im4corner/src/0983616becf6/im4corner.lua) 脚本, 并复制到以下目录(不同版本系统有区别)：
+首先下载 [im4corner.lua](https://github.com/chai2010/im4corner/blob/master/im4corner.lua) 脚本, 并复制到以下目录(不同版本系统有区别)：
 
 	XP: C:\Documents and Settings\All Users\Application Data\Google\Google Pinyin 2\Extensions\
 	XP: C:\Documents and Settings\All Users\Application Data\Google\Google Pinyin 3\Extensions\
@@ -26,11 +26,11 @@ Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, �
 
 安装后, 打开记事本程序, 切换到谷歌拼音输入法, 键入"isj"可以看到参数提示:
 
-![](https://github.com/chai2010/im4corner/im4corner-00.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-00.png)
 
 键入"isj1080", 谷歌拼音输入法的候选项窗口中将出现候选项: "a.天 b.兲 c.页 d.灭 e.贡".
 
-![](https://github.com/chai2010/im4corner/im4corner-01.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-01.png)
 
 其中, 右上角是简单的帮助信息: "四角号码输入法, 例如isj1080[?] -> 兲"中的"[?]".
 
@@ -38,11 +38,11 @@ Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, �
 
 如果不能确定某个角码, 可以用“?”符号代替(内部将作为0-9处理). 例如输入"isj1?80":
 
-![](https://github.com/chai2010/im4corner/im4corner-02.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-02.png)
 
 如果统配符在末尾, 则可以省略, 例如输入"isj108":
 
-![](https://github.com/chai2010/im4corner/im4corner-03.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-03.png)
 
 如果匹配的字符超过(约)128个，则多余的部分会被丢弃(Google拼音2.3.13.82版本的限制).
 
@@ -50,32 +50,32 @@ Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, �
 
 在第五个参数输入字符“?”, 则显示和输出每个汉字的完整角码和拼音, 例如输入"isj1080?":
 
-![](https://github.com/chai2010/im4corner/im4corner-04.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-04.png)
 
 如果要显示拼音时, 前面不足的字符可以用"?"填充. 例如"isj108"要显示拼音可以输入"isj108??":
 
-![](https://github.com/chai2010/im4corner/im4corner-05.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-05.png)
 
 其中显示角码功能还可以用于学习四角号码查字法. 例如输入"isj10???"可以查看以"10"开头的汉字:
 
-![](https://github.com/chai2010/im4corner/im4corner-06.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-06.png)
 
 **显示帮助信息**
 
 当参数全部是"?"字符时, 则显示四角号码的一些历史信息和查字的口诀.
 
-![](https://github.com/chai2010/im4corner/im4corner-help-01.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-help-01.png)
 
-![](https://github.com/chai2010/im4corner/im4corner-help-02.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-help-02.png)
 
-![](https://github.com/chai2010/im4corner/im4corner-help-03.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-help-03.png)
 
-![](https://github.com/chai2010/im4corner/im4corner-help-04.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-help-04.png)
 
-![](https://github.com/chai2010/im4corner/im4corner-help-05.png)
+![](https://raw.githubusercontent.com/chai2010/im4corner/master/im4corner-help-05.png)
 
 
-== 附录 ==
+## 附录
 
 * 项目主页 : [https://github.com/chai2010/im4corner](https://github.com/chai2010/im4corner)
 * 四角号码 : [http://zh.wikipedia.org/zh-cn/四角号码](http://zh.wikipedia.org/zh-cn/%E5%9B%9B%E8%A7%92%E5%8F%B7%E7%A0%81)
