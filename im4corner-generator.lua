@@ -2,10 +2,9 @@
 -------------------------------------------------------------------------------
 -- im4corner.lua脚本生成器
 --
--- 作者：ChaiShushan<chaishushan@gmail.com>
--- 项目：http://chaishushan.googlecode.com/hg/im4corner
---       https://bitbucket.org/chai2010/im4corner
--- 版权：New BSD License
+-- 作者: chai2010 <chaishushan@gmail.com>
+-- 项目: https://github.com/chai2010/im4corner
+-- 版权: New BSD License
 --
 -------------------------------------------------------------------------------
 

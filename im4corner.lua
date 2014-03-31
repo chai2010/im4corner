@@ -2,12 +2,10 @@
 -------------------------------------------------------------------------------
 -- 谷歌拼音四角号码输入扩展
 --
--- 作者：ChaiShushan<chaishushan@gmail.com>
--- 项目：https://bitbucket.org/chai2010/im4corner
---       http://chai2010.bitbucket.org/im4corner.html
---       http://chaishushan.googlecode.com/hg/im4corner
--- 版权：New BSD License
--- 版本：1.0.3.201101010
+-- 作者: chai2010 <chaishushan@gmail.com>
+-- 项目: https://github.com/chai2010/im4corner
+-- 版权: New BSD License
+-- 版本: 1.0.3.201101010
 --
 -- 简介：四角号码输入法，例如isj1080 -> 兲
 --
@@ -137,7 +135,7 @@ function SearchTableBy4C(args)
 			}
 		else
 			return {
-				"http://chai2010.bitbucket.org/im4corner.html",
+				"https://github.com/chai2010/im4corner",
 			}
 		end
 		
