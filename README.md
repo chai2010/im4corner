@@ -2,6 +2,8 @@
 
 Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, 实现了基本的四角号码输入功能.
 
+下载报告: [四角号码检字法](https://github.com/chai2010/talks/blob/master/%E5%9B%9B%E8%A7%92%E5%8F%B7%E7%A0%81%E6%A3%80%E5%AD%97%E6%B3%95.pdf?raw=true)
+
 ## 安装
 
 首先下载 [im4corner.lua](https://github.com/chai2010/im4corner/blob/master/im4corner.lua) 脚本, 并复制到以下目录(不同版本系统有区别)：
