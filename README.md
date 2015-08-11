@@ -2,7 +2,7 @@
 
 Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, 实现了基本的四角号码输入功能.
 
-报告: [四角号码检字法](http://talks.chai2010.googlecode.com/hg/si-jiao-hao-ma-jian-zi-fa.pdf)
+报告: [四角号码检字法](https://github.com/chai2010/talks/blob/master/%E5%9B%9B%E8%A7%92%E5%8F%B7%E7%A0%81%E6%A3%80%E5%AD%97%E6%B3%95.pdf)
 
 ## 安装
 
