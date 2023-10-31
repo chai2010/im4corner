@@ -34,11 +34,11 @@ Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, �
 
 安装后, 打开记事本程序, 切换到谷歌拼音输入法, 键入"isj"可以看到参数提示:
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-00.png)
+![](./images/im4corner-00.png)
 
 键入"isj1080", 谷歌拼音输入法的候选项窗口中将出现候选项: "a.天 b.兲 c.页 d.灭 e.贡".
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-01.png)
+![](./images/im4corner-01.png)
 
 其中, 右上角是简单的帮助信息: "四角号码输入法, 例如isj1080[?] -> 兲"中的"[?]".
 
@@ -46,11 +46,11 @@ Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, �
 
 如果不能确定某个角码, 可以用“?”符号代替(内部将作为0-9处理). 例如输入"isj1?80":
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-02.png)
+![](./images/im4corner-02.png)
 
 如果统配符在末尾, 则可以省略, 例如输入"isj108":
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-03.png)
+![](./images/im4corner-03.png)
 
 如果匹配的字符超过(约)128个，则多余的部分会被丢弃(Google拼音2.3.13.82版本的限制).
 
@@ -58,29 +58,29 @@ Google输入法四角号码扩展 基于 Google输入法 Lua扩展API 开发, �
 
 在第五个参数输入字符“?”, 则显示和输出每个汉字的完整角码和拼音, 例如输入"isj1080?":
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-04.png)
+![](./images/im4corner-04.png)
 
 如果要显示拼音时, 前面不足的字符可以用"?"填充. 例如"isj108"要显示拼音可以输入"isj108??":
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-05.png)
+![](./images/im4corner-05.png)
 
 其中显示角码功能还可以用于学习四角号码查字法. 例如输入"isj10???"可以查看以"10"开头的汉字:
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-06.png)
+![](./images/im4corner-06.png)
 
 **显示帮助信息**
 
 当参数全部是"?"字符时, 则显示四角号码的一些历史信息和查字的口诀.
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-help-01.png)
+![](./images/im4corner-help-01.png)
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-help-02.png)
+![](./images/im4corner-help-02.png)
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-help-03.png)
+![](./images/im4corner-help-03.png)
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-help-04.png)
+![](./images/im4corner-help-04.png)
 
-![](https://raw.githubusercontent.com/chai2010/im4corner/master/images/im4corner-help-05.png)
+![](./images/im4corner-help-05.png)
 
 
 ## 附录
